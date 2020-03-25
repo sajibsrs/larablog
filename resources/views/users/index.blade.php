@@ -15,6 +15,7 @@
                     <div class="media-body">
                         <h5 class="mt-0">{{ $user->name }}</h5>
                         {{ $user->email }}
+                        <p><a href="{{ route('users.show', ['id' => $user->id]) }}">Show profile</a></p>
                     </div>
                 </div>
             </div>
