@@ -12,9 +12,6 @@ Part of the challenge of creating same application with same features in **larav
 ##Content
 
 * php 7.2.24 and laravel 7.2.1
-
 * Dependencies: mysql, laravel/ui bootstrap
-
 * Database creation: specify connection and create database
-
 * Database initialization: php artisan db:migrate
