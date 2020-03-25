@@ -3,6 +3,12 @@
 @section('content')
 <div class="container">
     <div class="row">
+        <div class="col">
+            <h1 class="h2">All users</h1>
+            <hr class="mb-4">
+        </div>
+    </div>
+    <div class="row">
         @foreach($users as $user)
             <div class="col">
                 <div class="media">
