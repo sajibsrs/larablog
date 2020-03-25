@@ -13,8 +13,8 @@
                         <rect width="100%" height="100%" fill="#868e96"></rect>
                     </svg>
                     <div class="media-body">
-                        <h5 class="mt-0">{{ $user->name }}</h5>
-                        {{ $user->email }}
+                        <h5 class="mt-0 mb-1">{{ $user->name }}</h5>
+                        <p class="mb-1">{{ $user->email }}</p>
                         <p><a href="{{ route('users.show', ['id' => $user->id]) }}">Show profile</a></p>
                     </div>
                 </div>
