@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4d90b9c8-91b0-4a9e-9c95-9415a7f608ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,18 +148,25 @@
       <option name="presentableId" value="Default" />
       <updated>1585121484866</updated>
       <workItem from="1585121490057" duration="300000" />
-      <workItem from="1585130512598" duration="11552000" />
+      <workItem from="1585130512598" duration="13494000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="0" width="618" height="1075" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585170502831">
+    <state x="641" y="0" width="618" height="1075" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585259522128">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="641" y="0" width="618" height="1075" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585170502831" />
+    <state x="641" y="0" width="618" height="1075" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585259522128" />
+    <state x="729" y="469" width="424" height="479" key="FileChooserDialogImpl" timestamp="1585256576466">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="729" y="469" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1585256576466" />
     <state x="790" y="536" width="354" height="142" key="NewPhpFileDialog" timestamp="1585170777068">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -167,9 +175,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="464" y="174" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585130583035" />
-    <state x="643" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1585130516383">
+    <state x="643" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1585218648952">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="643" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585130516383" />
+    <state x="643" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585218648952" />
   </component>
 </project>
