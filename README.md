@@ -7,7 +7,8 @@ Part of the challenge of creating same application with same features in **larav
 * User profile
 * Posts
 * Post by user
-* Rich text editor for post
+* TODO: Rich text editor for post
+* TODO: Post image and user profile picture
 
 ## Content
 
