@@ -17,8 +17,9 @@ Route::get('/', 'UserController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/users/index', 'UserController@index')->name('users.index');
-Route::get('/users/{id}', 'UserController@show')->name('users.show');
+Route::get('/users', 'UserController@index')->name('users.index');
+Route::get('/users/{user}', 'UserController@show')->name('users.show');
+Route::get('/users/posts/{post}', 'UserPostController@index')->name('users.posts.index');
 
 Route::resources([
     'posts' => 'PostController'
