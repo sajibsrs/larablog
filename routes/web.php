@@ -19,3 +19,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/users/index', 'UserController@index')->name('users.index');
 Route::get('/users/{id}', 'UserController@show')->name('users.show');
+
+Route::resources([
+    'posts' => 'PostController'
+]);
