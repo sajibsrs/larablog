@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1 class="h2">All posts by {{ $user->name }}</h1>
+                <h1 class="h2">All posts</h1>
                 <hr class="mb-4">
             </div>
         </div>
@@ -19,13 +19,15 @@
                             <rect width="100%" height="100%" fill="#868e96"></rect>
                         </svg>
                         <div class="media-body">
-                            <h5 class="mt-0 mb-1">{{ $post->title }}</h5>
-                            by {{ $post->user->name }}
+                            <h5 class="mt-0 mb-1">{{ $post->title }}</h5> by
+                            <a href="{{ route('users.posts.index', ['user' => $post]) }}">
+                                {{ $post->user->name }}
+                            </a>
                             <small class="text-muted">by
                                 on {{ date_format($post->created_at, 'd-m-Y') }}
                             </small>
                             <p class="mb-1">{{ $post->content }}</p>
-                            <p><a href="{{ route('posts.show', ['post' => $post]) }}">Show post</a></p>
+                            <p><a href="{{ route('posts.show', ['post' => $post->id]) }}">Show post</a></p>
                         </div>
                     </div>
                 </div>

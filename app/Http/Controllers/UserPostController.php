@@ -6,9 +6,10 @@ use App\User;
 
 class UserPostController extends Controller
 {
-    public function index($id)
+    public function index($user)
     {
-        $posts = User::findOrFail($id)->posts;
-        return view('users.posts', ['posts' => $posts]);
+        $user = User::findOrFail($user);
+        $posts = $user->posts;
+        return view('users.posts', ['user' => $user,'posts' => $posts]);
     }
 }
