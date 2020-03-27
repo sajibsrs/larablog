@@ -22,7 +22,7 @@
                             <h5 class="mt-0 mb-1">{{ $post->title }}</h5>
                             by {{ $post->user->name }}
                             <small class="text-muted">by
-                                on {{ date_format($post->created_at, 'd-m-Y') }}
+                                on {{ date_format($post->created_at, 'd-M-Y') }}
                             </small>
                             <p class="mb-1">{{ $post->content }}</p>
                             <p><a href="{{ route('posts.show', ['post' => $post]) }}">Show post</a></p>

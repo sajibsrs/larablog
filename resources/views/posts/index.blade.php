@@ -24,7 +24,7 @@
                                 {{ $post->user->name }}
                             </a>
                             <small class="text-muted">by
-                                on {{ date_format($post->created_at, 'd-m-Y') }}
+                                on {{ date_format($post->created_at, 'd-M-Y') }}
                             </small>
                             <p class="mb-1">{{ $post->content }}</p>
                             <p><a href="{{ route('posts.show', ['post' => $post->id]) }}">Show post</a></p>
