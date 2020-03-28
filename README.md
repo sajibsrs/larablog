@@ -1,6 +1,6 @@
 # LARABLOG
 This is a simple **laravel** blog application. That has authentication system.
-Part of the challenge of creating same application with same features in **laravel**, **ruby on rails**, **django**, **dotnet core** and **nodejs**.
+Part of the challenge of creating same application with same features in **laravel**, **ruby on rails**, **django**, **dotnet core**, **spring** and **nodejs**.
 
 ## Features
 * Authentication
