@@ -7,6 +7,7 @@ Part of the challenge of creating same application with same features in **larav
 * User profile
 * Posts
 * Post by user
+* Highlight js code syntax highlight for rich tex editor code type
 * TODO: Rich text editor for post
 * TODO: Post image and user profile picture
 
