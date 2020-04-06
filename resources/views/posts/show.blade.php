@@ -25,7 +25,7 @@
                         <small class="text-muted">by
                             on {{ date_format($post->created_at, 'd-M-Y') }}
                         </small>
-                        <p class="mb-1">{{ $post->content }}</p>
+                        <p class="mb-1"><div class="trix-content">{!! $post->content !!}</div></p>
                     </div>
                 </div>
             </div>
