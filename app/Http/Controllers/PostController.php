@@ -33,11 +33,11 @@ class PostController extends Controller
         return view('posts.edit', ['post' => $post]);
     }
 
-    public function update($id)
+    public function update(Request $request, Post $post)
     {
-        $post = Post::find($id);
-        $post->title = request('title');
-        $post->content = request('content');
+        $post = Post::find($post);
+        $post->title = $request('title');
+        $post->content = $request('content');
         $post->save();
 
         return redirect('/posts/'. $post->id);
